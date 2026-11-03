@@ -3,7 +3,7 @@ body {
   min-height: 100vh; 
   font-family: Arial, sans-serif; 
   color: #e8fff5; 
-  background: #101815; 
+  background: #000000; 
 }
 
 header,footer {
@@ -19,13 +19,13 @@ main {
 .card {
   width: min(100%, 560px); 
   padding: 32px;
-  border: 1px solid #4cffb0; 
+  border: 1px solid #8903d6; 
   border-radius: 16px; 
-  background: #17231f; 
+  background: #0a0f00; 
 }
 
 .eyebrow {
-  color: #4cffb0; 
+  color: #8903d6; 
   font-size: 12px; 
   letter-spacing: 0.12em; 
 }
@@ -41,6 +41,7 @@ li {
 
 a,
 button {
+  color: white;
   display: inline-block; 
   margin-top: 16px; 
 }
@@ -52,6 +53,6 @@ button {
   border-radius: 6px; 
   font: inherit; 
   color: #101815;
-  background: #4cffb0; 
+  background: #8903d6; 
   cursor: pointer; 
 }
